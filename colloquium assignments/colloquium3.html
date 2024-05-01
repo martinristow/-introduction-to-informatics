@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>102620</title>
+<style>
+body{
+background-color:silver;
+}
+p{
+font-family:arial;
+color:red;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+textarea {
+border: 1px solid gold;
+background-color:gold;
+
+}
+input[type=submit]:focus {
+background-color: lightblue;
+border:1px solid #000000;
+}
+input[type=reset]:focus {
+background-color: lightblue;
+border:1px solid #000000;
+border-color:blue;
+}
+
+</style>
+</head>
+<body>
+
+<form action="mailto:martinristov084@gmail.com" method="post">
+<p>First Name:
+<input type="text" name="first_name" maxlength="20" />
+<br>
+<p>Last Name:
+<input type="text" name="last_name" maxlength="20" />
+<br>
+<br>
+<input type="checkbox" name="subject" value="prva" checked="yes" /> Prva godina
+<br>
+<input type="checkbox" name="subject" value="vtora" /> Vtora godina
+<br>
+<input type="checkbox" name="subject" value="treta" /> Treta godina
+<br>
+<input type="checkbox" name="subject" value="cetvrta" /> Cetvrta godina
+<br>
+<br>
+<textarea cols="50" rows="5" border" style="color:white;" disabled="yes">
+Ovde ne smeeme da pisuvame...
+Ovaa kontrola e onevozmozena...
+</textarea>
+<br>
+<br>
+<input type="submit" value="Submit" style="color:blue;"/>
+<input type="reset" value="Reset" style="color:blue;"/>
+</form>
+</body>
+</html>
+
